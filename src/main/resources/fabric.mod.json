@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "customizableorequantity",
+  "version": "${version}",
+  "name": "Customizable Ore Quantity",
+  "description": "Configure ore drop counts via JSON with proper Silk Touch and Fortune handling.",
+  "authors": ["Mars0ni"],
+  "contact": {
+    "sources": "https://github.com/Mars0ni/minecraft-CustomizableOreQuantity"
+  },
+  "license": "MIT",
+  "icon": "assets/customizableorequantity/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mars0ni.customizableorequantity.CustomizableOreQuantity"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}
